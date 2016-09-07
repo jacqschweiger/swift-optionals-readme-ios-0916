@@ -1,5 +1,5 @@
 var petName: String?
-petName = "Scooter 🐢"
+petName = "Spot"
 print(petName)
 
 if petName != nil {
@@ -14,5 +14,4 @@ if let petName = petName {
 
 if let friendsPet = petName {
     print("My friend's pet is \(friendsPet)")
-    print("petName is still an Optional! \(petName)")
 }
